@@ -1,0 +1,61 @@
+map gi :vsc Edit.GoToImplementation<CR>
+map gr :vsc Edit.FindAllReferences<CR>
+map gp :vsc Edit.PeekDefinition<CR>
+
+map <g><v> :vsc EditorContextMenus.CodeWindow.GoToView<CR>
+map <g><c> :vsc OtherContextMenus.HTMLContext.GoToController<CR>
+
+map <g><h> :vsc View.NavigateBackward<CR>
+map <g><k> :vsc View.NavigateForward<CR>
+
+map <z><d> :vsc Edit.FormatDocument<CR>
+map <z><t> :vsc TestExplorer.RunAllTests<CR>
+map <z><r> :vsc TestExplorer.RunAllTestsInContext<CR>
+
+
+let mapleader=","
+
+nnoremap R :vsc Refactor.Rename<cr>
+
+" jump between compilation errors
+nnoremap <leader>e :vsc View.NextError<cr>
+nnoremap <leader>E :vsc View.PreviousError<cr>
+
+map <leader>r :source ~\vimfiles\_vsvimrc<cr>
+
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-l> :m .-2<CR>==
+
+inoremap <A-j> <Esc>:m .+1<CR>
+inoremap <A-l> <Esc>:m .-2<CR>
+
+inoremap jj <Esc>
+inoremap hh <Esc>
+inoremap kk <Esc>
+inoremap lll <Esc>
+
+inoremap <C-s> <Esc>:vsc File.SaveSelectedItems<CR>
+vnoremap <C-s> <Esc>:vsc File.SaveSelectedItems<CR>
+nnoremap <C-s> :vsc File.SaveSelectedItems<CR>
+
+nnoremap zc :vsc Edit.CommentSelection<CR>
+vnoremap zc :vsc Edit.CommentSelection<CR><Esc><Esc>
+nnoremap zu :vsc Edit.UncommentSelection<CR>
+vnoremap zu :vsc Edit.UncommentSelection<CR><Esc><Esc>
+vnoremap <C-c> :vsc Edit.Copy<CR><Esc>
+
+nnoremap <leader>d "_d
+xnoremap <leader>d "_d
+xnoremap <leader>p "_dp
+
+noremap ; .
+noremap k l
+noremap l k
+noremap H 10h
+noremap J 10j
+noremap K 10l
+noremap L 10k
+noremap <C-l> :vsc Edit.PreviousMethod<cr>
+noremap <C-j> :vsc Edit.NextMethod<cr>
+nnoremap u :vsc Edit.Undo<cr>
+nnoremap U :vsc Edit.Redo<cr>
