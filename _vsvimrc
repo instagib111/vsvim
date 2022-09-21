@@ -44,6 +44,11 @@ nnoremap zu :vsc Edit.UncommentSelection<CR>
 vnoremap zu :vsc Edit.UncommentSelection<CR><Esc><Esc>
 vnoremap <C-c> :vsc Edit.Copy<CR><Esc>
 
+nnoremap ft :vsc Edit.FindNext<cr>
+nnoremap fT :vsc Edit.FindPrevious<cr>
+vnoremap ft :vsc Edit.FindNext<cr>
+vnoremap fT :vsc Edit.FindPrevious<cr>
+
 nnoremap <leader>d "_d
 xnoremap <leader>d "_d
 xnoremap <leader>p "_dp
