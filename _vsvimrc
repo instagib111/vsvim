@@ -62,5 +62,6 @@ noremap K 10l
 noremap L 10k
 noremap <C-l> :vsc Edit.PreviousMethod<cr>
 noremap <C-j> :vsc Edit.NextMethod<cr>
+noremap <C-a> :vsc Edit.SelectAll<cr>
 nnoremap u :vsc Edit.Undo<cr>
 nnoremap U :vsc Edit.Redo<cr>
