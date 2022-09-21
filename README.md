@@ -18,3 +18,7 @@ La combinaison gh revient en arrière et gk en avant.
 La combinaison zd format le document.
 
 La combinaison zt run tous les test et zr juste celui sur lequel on est.
+
+La combinaison ft fT pour FindNext et FindPrevious
+
+La combinaison ,r pour reaload vsvimrc
