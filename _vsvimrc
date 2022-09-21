@@ -21,7 +21,7 @@ nnoremap R :vsc Refactor.Rename<cr>
 nnoremap <leader>e :vsc View.NextError<cr>
 nnoremap <leader>E :vsc View.PreviousError<cr>
 
-map <leader>r :source ~\vimfiles\_vsvimrc<cr>
+map <leader>r :source $VIM/_vsvimrc<cr>:echo "file reloaded"<cr>
 
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-l> :m .-2<CR>==
