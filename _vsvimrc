@@ -57,9 +57,9 @@ noremap ; .
 noremap k l
 noremap l k
 noremap H 10h
-noremap J 10j
+noremap J 10jzz
 noremap K 10l
-noremap L 10k
+noremap L 10kzz
 noremap <C-l> :vsc Edit.PreviousMethod<cr>
 noremap <C-j> :vsc Edit.NextMethod<cr>
 noremap <C-a> :vsc Edit.SelectAll<cr>
