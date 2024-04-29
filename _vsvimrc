@@ -13,7 +13,7 @@ map <z><t> :vsc TestExplorer.RunAllTests<CR>
 map <z><r> :vsc TestExplorer.RunAllTestsInContext<CR>
 
 
-let mapleader=","
+let mapleader="/"
 
 nnoremap R :vsc Refactor.Rename<cr>
 
@@ -53,7 +53,7 @@ nnoremap <leader>d "_d
 xnoremap <leader>d "_d
 xnoremap <leader>p "_dp
 
-noremap ; .
+noremap , .
 noremap k l
 noremap l k
 noremap H 10h
